@@ -5,4 +5,11 @@
 // -3 -> нет
 // 7 -> нет
 
-Console.WriteLine("Hello, World!");
+
+string na = Console.ReadLine()!;
+int a = int.Parse(na);
+
+if(a % 2 == 0) Console.WriteLine("The number is even");
+else Console.WriteLine("The number is not even");
+
+
