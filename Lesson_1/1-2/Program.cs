@@ -2,7 +2,6 @@
 // название дня недели по заданному номеру
 
 string a = Console.ReadLine()!; // Можно сравнивать строку без преобразования
-// int a = int.Parse (n);
 
 if(a == "1") Console.WriteLine("It's Sunday");
 else if(a == "2") Console.WriteLine("It's Monday");
