@@ -4,4 +4,19 @@
 // 5 -> 2, 4
 // 8 -> 2, 4, 6, 8
 
-Console.WriteLine("Hello, World!");
+
+string N = Console.ReadLine()!;
+int a = int.Parse(N);
+
+int b = 2;
+
+if(a >= 1)
+{
+    while(b <= a)
+    {
+        Console.Write(b + " ");
+        b = b + 2;
+    }
+}
+
+
